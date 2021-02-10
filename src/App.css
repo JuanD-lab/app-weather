@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/246/312/non_2x/mountain-lake-sunset-landscape-first-person-view-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -35,4 +41,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.wrapper {
+  display: flex;
+  margin: auto;
+  max-width: 300px;
+  background-color: rgb(171, 206, 236, 0.3);
+  backdrop-filter: blur(40px);
+  border: solid 2px transparent;
+  padding: 4em;
+}
+
+.data {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.temp {
+  font-size: 48px;
+  font-weight: 600;
 }
